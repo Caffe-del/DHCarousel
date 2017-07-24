@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DHCarousel_Example' do
+  pod 'DHCarousel', :path => '../'
+
+  target 'DHCarousel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
