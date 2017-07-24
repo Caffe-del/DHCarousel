@@ -1,0 +1,6 @@
+framework module Pods_DHCarousel_Tests {
+  umbrella header "Pods-DHCarousel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB01F221F25FAC5003FA085 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB01F1D1F25FAC5003FA085 /* 0.png */; };
+		4AB01F231F25FAC5003FA085 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB01F1E1F25FAC5003FA085 /* 1.png */; };
+		4AB01F241F25FAC5003FA085 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB01F1F1F25FAC5003FA085 /* 2.png */; };
+		4AB01F251F25FAC5003FA085 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB01F201F25FAC5003FA085 /* 3.png */; };
+		4AB01F261F25FAC5003FA085 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB01F211F25FAC5003FA085 /* 4.png */; };
+		4AB01F281F25FAE1003FA085 /* DHCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB01F271F25FAE1003FA085 /* DHCarousel.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +35,14 @@
 
 /* Begin PBXFileReference section */
 		241F7F3B6EA63951BB52E2B3 /* Pods_DHCarousel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCarousel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		455C31A2C8123F4A039335EA /* DHCarousel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHCarousel.podspec; path = ../DHCarousel.podspec; sourceTree = "<group>"; };
+		455C31A2C8123F4A039335EA /* DHCarousel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHCarousel.podspec; path = ../DHCarousel.podspec; sourceTree = "<group>"; };
 		48847AD5A691F46666643436 /* Pods-DHCarousel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCarousel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHCarousel_Tests/Pods-DHCarousel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB01F1D1F25FAC5003FA085 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../0.png; sourceTree = "<group>"; };
+		4AB01F1E1F25FAC5003FA085 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../1.png; sourceTree = "<group>"; };
+		4AB01F1F1F25FAC5003FA085 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../2.png; sourceTree = "<group>"; };
+		4AB01F201F25FAC5003FA085 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../3.png; sourceTree = "<group>"; };
+		4AB01F211F25FAC5003FA085 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../4.png; sourceTree = "<group>"; };
+		4AB01F271F25FAE1003FA085 /* DHCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHCarousel.swift; sourceTree = "<group>"; };
 		53A4303CB6C1A2D772180F86 /* Pods-DHCarousel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCarousel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHCarousel_Example/Pods-DHCarousel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DHCarousel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHCarousel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +57,8 @@
 		80A7FD20D4BF4DE2A6384CB0 /* Pods_DHCarousel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCarousel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF7602D2D9FE16BFF62D38 /* Pods-DHCarousel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCarousel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHCarousel_Example/Pods-DHCarousel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F381B858343CA60463D24B04 /* Pods-DHCarousel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCarousel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHCarousel_Tests/Pods-DHCarousel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FBE99B3D195805D7B15CBA79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FD4CE3DA679FE0E611F9AF99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FBE99B3D195805D7B15CBA79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD4CE3DA679FE0E611F9AF99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4AB01F1C1F25FAB7003FA085 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4AB01F1D1F25FAC5003FA085 /* 0.png */,
+				4AB01F1E1F25FAC5003FA085 /* 1.png */,
+				4AB01F1F1F25FAC5003FA085 /* 2.png */,
+				4AB01F201F25FAC5003FA085 /* 3.png */,
+				4AB01F211F25FAC5003FA085 /* 4.png */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +128,9 @@
 		607FACD21AFB9204008FA782 /* Example for DHCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				4AB01F1C1F25FAB7003FA085 /* Sources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				4AB01F271F25FAE1003FA085 /* DHCarousel.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -248,9 +274,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB01F241F25FAC5003FA085 /* 2.png in Resources */,
+				4AB01F221F25FAC5003FA085 /* 0.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				4AB01F261F25FAC5003FA085 /* 4.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				4AB01F251F25FAC5003FA085 /* 3.png in Resources */,
+				4AB01F231F25FAC5003FA085 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +394,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4AB01F281F25FAE1003FA085 /* DHCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

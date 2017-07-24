@@ -1,0 +1,6 @@
+framework module DHCarousel {
+  umbrella header "DHCarousel-umbrella.h"
+
+  export *
+  module * { export * }
+}

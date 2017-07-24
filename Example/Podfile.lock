@@ -1,0 +1,16 @@
+PODS:
+  - DHCarousel (0.1.0)
+
+DEPENDENCIES:
+  - DHCarousel (from `../`)
+
+EXTERNAL SOURCES:
+  DHCarousel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DHCarousel: 9f4f57947d28b08a6141c234f82125a23a151952
+
+PODFILE CHECKSUM: f2d65598075333a452afea242764488fc9dbe741
+
+COCOAPODS: 1.2.1

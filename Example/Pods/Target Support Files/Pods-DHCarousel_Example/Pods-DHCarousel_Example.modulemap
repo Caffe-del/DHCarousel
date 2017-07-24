@@ -1,0 +1,6 @@
+framework module Pods_DHCarousel_Example {
+  umbrella header "Pods-DHCarousel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
