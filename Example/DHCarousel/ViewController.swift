@@ -10,6 +10,9 @@ import UIKit
 import DHCarousel
 class ViewController: UIViewController {
     
+    let screenWidth = UIScreen.main.bounds.width
+    let screenHeight = UIScreen.main.bounds.height
+    
     var imageArray:[UIImage] = []
     var circleView:DHCarousel!
     
@@ -18,15 +21,16 @@ class ViewController: UIViewController {
             imageArray.append(UIImage(named: "\(i)")!)
         }
         
-        let frame = CGRect(x: 0, y: 0, width: screenWidth, height: 250)
+        let frame = CGRect(x: 0, y: 64, width: screenWidth, height: 250)
         circleView = DHCarousel(frame, images: imageArray,time: 3)
         circleView.delegate = self
         
         self.view.addSubview(circleView)
     }
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    @IBAction func btnClick(_ sender: UIButton) {
         circleView.imageArray = [imageArray.first!,imageArray.last!]
     }
+
 }
 
 

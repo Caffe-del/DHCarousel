@@ -8,8 +8,8 @@
 
 import UIKit
 
-public let screenWidth = UIScreen.main.bounds.width
-public let screenHeight = UIScreen.main.bounds.height
+let screenWidth = UIScreen.main.bounds.width
+let screenHeight = UIScreen.main.bounds.height
 
 public protocol DHCarouselDelegate {
     func circleViewDidSelected(circleView:UIView,index:Int)
@@ -36,7 +36,6 @@ public class DHCarousel: UIView {
     fileprivate lazy var scrollView:UIScrollView = {
         var view:UIScrollView = UIScrollView(frame: self.bounds)
         view.isPagingEnabled = true
-        view.backgroundColor = .red
         view.delegate = self
         view.showsHorizontalScrollIndicator = false
         view.contentSize = CGSize(width: CGFloat( self.imageArray.count) * screenWidth, height: self.bounds.size.height)
@@ -58,7 +57,10 @@ public class DHCarousel: UIView {
     }
     
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        times = 0
+        imageArray = []
+        super.init(coder: aDecoder)
+//        fatalError("init(coder:) has not been implemented")
     }
     
     override  public func didMoveToSuperview() {
@@ -72,6 +74,7 @@ public class DHCarousel: UIView {
         }
         currentPage = 0
         pageControl.currentPage = 0
+        pageControl.isHidden = false
     }
     
     fileprivate func makeUI(){
