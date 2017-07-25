@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		247B9FF1A982146751DC330B910976B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		3BC235FEE1688CECE50FAEE2E104D474 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF820CB60F02BE8687281D41471AD8 /* ReplaceMe.swift */; };
+		4AAA80051F26EF65003A1D63 /* DHCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA80041F26EF65003A1D63 /* DHCarousel.swift */; };
 		70351454441AB5A45A2891F53D22C9BF /* Pods-DHCarousel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003D51F591B59604EC697BAB38462D2 /* Pods-DHCarousel_Example-dummy.m */; };
 		7333F732C7BE5297F5EECA0AB6699AD9 /* DHCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CFFD7CC61627E063CB42F4CAEAADD1 /* DHCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		799265DF7E02AC64F81581E91878ADF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -33,25 +33,26 @@
 /* Begin PBXFileReference section */
 		09CA84ED95B48F48E3D0E4C92F138BF8 /* Pods-DHCarousel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHCarousel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F51421BF79688889A90ABF4D3787A8A /* Pods-DHCarousel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DHCarousel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16EF820CB60F02BE8687281D41471AD8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		1D10C66BB86C5CB0E26FFDFD9A80F57F /* DHCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DHCarousel.framework; path = DHCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D10C66BB86C5CB0E26FFDFD9A80F57F /* DHCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFAB7C29A38DFEBB023FF464B7C71ED /* Pods-DHCarousel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHCarousel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2003D51F591B59604EC697BAB38462D2 /* Pods-DHCarousel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DHCarousel_Example-dummy.m"; sourceTree = "<group>"; };
 		242265B67493ACBEC4B9C981DFACF94A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25ABB075B4E1618712F9C3C66C2BBB67 /* DHCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DHCarousel.modulemap; sourceTree = "<group>"; };
+		25ABB075B4E1618712F9C3C66C2BBB67 /* DHCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DHCarousel.modulemap; sourceTree = "<group>"; };
 		25B8C32953D8ED4BBF91C13944DA30B2 /* Pods-DHCarousel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DHCarousel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		32C63C42938981FE0DD5F7F6173416B8 /* Pods_DHCarousel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHCarousel_Tests.framework; path = "Pods-DHCarousel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C63C42938981FE0DD5F7F6173416B8 /* Pods_DHCarousel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCarousel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FF8D5EE1ABA07EF677E4A6C3D9BDC9 /* DHCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHCarousel-prefix.pch"; sourceTree = "<group>"; };
-		3AF27D675EC562EC9F3A68EDA0553407 /* Pods_DHCarousel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHCarousel_Example.framework; path = "Pods-DHCarousel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF27D675EC562EC9F3A68EDA0553407 /* Pods_DHCarousel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCarousel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAA80041F26EF65003A1D63 /* DHCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHCarousel.swift; sourceTree = "<group>"; };
+		4AAA80061F26EF89003A1D63 /* DHCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DHCarousel.framework; path = "../build/Debug-iphoneos/DHCarousel.framework"; sourceTree = "<group>"; };
 		66E7252F27322366C5EBC63DE782CCD8 /* Pods-DHCarousel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHCarousel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7B9C1A77AC1DB75FECC36810EE05D660 /* Pods-DHCarousel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHCarousel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		826AD7342D8539043A73B0EBB1A8282A /* DHCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DHCarousel-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95963DEB5191E5F83C511A005B83E7CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9821FD73DCF1D4077E9CC43B8A3150 /* DHCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHCarousel.xcconfig; sourceTree = "<group>"; };
-		A6FAC93B4D80812FEDD4E4693E67D6C3 /* Pods-DHCarousel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DHCarousel_Tests.modulemap"; sourceTree = "<group>"; };
+		A6FAC93B4D80812FEDD4E4693E67D6C3 /* Pods-DHCarousel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DHCarousel_Tests.modulemap"; sourceTree = "<group>"; };
 		AD79FE6557547D8E7AF9FF010BC9AFA7 /* Pods-DHCarousel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHCarousel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AFDEC097CCCF0E72F71FA38E8B616FCA /* Pods-DHCarousel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DHCarousel_Example.modulemap"; sourceTree = "<group>"; };
+		AFDEC097CCCF0E72F71FA38E8B616FCA /* Pods-DHCarousel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DHCarousel_Example.modulemap"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE9659F8CCD17AACFDE894FB91DA9D53 /* Pods-DHCarousel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHCarousel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C328C0EF85C58CED96888A2DD7436F1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,13 +119,13 @@
 			children = (
 				5D0915870BDEEDD74446549AA3CAF670 /* Classes */,
 			);
-			name = DHCarousel;
 			path = DHCarousel;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AAA80061F26EF89003A1D63 /* DHCarousel.framework */,
 				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
 			name = Frameworks;
@@ -152,9 +153,8 @@
 		5D0915870BDEEDD74446549AA3CAF670 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				16EF820CB60F02BE8687281D41471AD8 /* ReplaceMe.swift */,
+				4AAA80041F26EF65003A1D63 /* DHCarousel.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -351,8 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAA80051F26EF65003A1D63 /* DHCarousel.swift in Sources */,
 				BF2C7A61375983B8641BC2D617E47CE2 /* DHCarousel-dummy.m in Sources */,
-				3BC235FEE1688CECE50FAEE2E104D474 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DHCarousel/DHCarousel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DHCarousel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DHCarousel/DHCarousel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -552,7 +552,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DHCarousel/DHCarousel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DHCarousel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DHCarousel/DHCarousel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;

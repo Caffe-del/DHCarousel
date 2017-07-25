@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import DHCarousel
 class ViewController: UIViewController {
     
     var imageArray:[UIImage] = []

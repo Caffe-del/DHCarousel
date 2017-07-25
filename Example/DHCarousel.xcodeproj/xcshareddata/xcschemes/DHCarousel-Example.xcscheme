@@ -52,6 +52,16 @@
                ReferencedContainer = "container:DHCarousel.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4AAA7FE41F26EAB1003A1D63"
+               BuildableName = "DHCarouselTests.xctest"
+               BlueprintName = "DHCarouselTests"
+               ReferencedContainer = "container:DHCarousel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

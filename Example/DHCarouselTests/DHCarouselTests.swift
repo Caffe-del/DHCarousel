@@ -1,8 +1,15 @@
-import UIKit
-import XCTest
-//import DHCarousel
+//
+//  DHCarouselTests.swift
+//  DHCarouselTests
+//
+//  Created by 全达晖 on 2017/7/25.
+//  Copyright © 2017年 CocoaPods. All rights reserved.
+//
 
-class Tests: XCTestCase {
+import XCTest
+@testable import DHCarousel
+
+class DHCarouselTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -16,12 +23,12 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure() {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

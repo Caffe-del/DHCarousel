@@ -8,10 +8,10 @@
 
 import UIKit
 
-let screenWidth = UIScreen.main.bounds.width
-let screenHeight = UIScreen.main.bounds.height
+public let screenWidth = UIScreen.main.bounds.width
+public let screenHeight = UIScreen.main.bounds.height
 
-protocol DHCarouselDelegate {
+public protocol DHCarouselDelegate {
     func circleViewDidSelected(circleView:UIView,index:Int)
 }
 
@@ -26,7 +26,7 @@ public class DHCarousel: UIView {
     }
     /// 自动轮播的时间段
     public var times:TimeInterval
-    var delegate:DHCarouselDelegate?
+    public var delegate:DHCarouselDelegate?
     
     
     fileprivate var timer:Timer?
