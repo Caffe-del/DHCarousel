@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DHCarousel
 class XibController: UIViewController {
 
     var imageArray:[UIImage] = []
@@ -18,8 +17,9 @@ class XibController: UIViewController {
         for i in 0...4 {
             imageArray.append(UIImage(named: "\(i)")!)
         }
-        carouselView.times = 3
+        carouselView.times = 3     //可在代码设置也可在xib里面设置
         carouselView.imageArray = imageArray
+        carouselView.pageControl.center = CGPoint(x: self.view.center.x, y: 64 + 10)
         
     }
 

@@ -25,7 +25,7 @@ public class DHCarousel: UIView {
         }
     }
     /// 自动轮播的时间段
-    public var times:TimeInterval
+    @IBInspectable public var times:Double
     public var delegate:DHCarouselDelegate?
     
     
@@ -42,10 +42,11 @@ public class DHCarousel: UIView {
         return view
     }()
     
-    fileprivate lazy var pageControl:UIPageControl = {
+    public lazy var pageControl:UIPageControl = {
        var page = UIPageControl()
         page.pageIndicatorTintColor = .red
         page.currentPage = 0
+        page.center = CGPoint(x: self.center.x, y: self.bounds.size.height - 10)
         return page
     }()
     
@@ -53,7 +54,7 @@ public class DHCarousel: UIView {
         times = time
         imageArray = images
         super.init(frame: frame)
-        
+        makeUI()
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -63,13 +64,9 @@ public class DHCarousel: UIView {
 //        fatalError("init(coder:) has not been implemented")
     }
     
-    override  public func didMoveToSuperview() {
-        makeUI()
-    }
-    
     fileprivate func resetStatus(){
         removeTimer()
-        for view in subviews {
+        for view in self.subviews {
             view.removeFromSuperview()
         }
         currentPage = 0
@@ -109,7 +106,7 @@ public class DHCarousel: UIView {
         
         addSubview(pageControl)
         pageControl.numberOfPages = imageArray.count
-        pageControl.center = CGPoint(x: self.center.x, y: self.bounds.size.height - 10)
+//        pageControl.center = CGPoint(x: self.center.x, y: self.bounds.size.height - 10)
         
         addTimer()
     }

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DHCarousel
 class ViewController: UIViewController {
     
     let screenWidth = UIScreen.main.bounds.width
@@ -23,6 +22,7 @@ class ViewController: UIViewController {
         
         let frame = CGRect(x: 0, y: 64, width: screenWidth, height: 250)
         circleView = DHCarousel(frame, images: imageArray,time: 3)
+        circleView.pageControl.center = CGPoint(x: self.view.center.x, y: 64 + 10)
         circleView.delegate = self
         
         self.view.addSubview(circleView)
